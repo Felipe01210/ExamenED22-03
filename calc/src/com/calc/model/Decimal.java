@@ -13,7 +13,8 @@ public class Decimal extends Numero{
 	
 	public Decimal(int value, Base base) {
 		super(value, base);
-		setValorDecimal(0);
+		//setValorDecimal(0); //no es necesario hacer un set de valorDecimal a cero ya que
+							//al declararlo como int se inicializa como 0
 	}
 
 	

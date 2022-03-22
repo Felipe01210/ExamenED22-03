@@ -10,7 +10,7 @@ public abstract class Numero {
 	
 	
 	public Numero(int value, Base base) {
-		super();
+		//super(); //Este super no es necesario debido a que no hay clase padre
 		this.base=base;
 		setValorEntero(value);
 	}
